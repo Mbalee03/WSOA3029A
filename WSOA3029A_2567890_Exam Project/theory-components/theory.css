@@ -138,3 +138,140 @@ nav {
 .dropdown-content a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+/* Essay Stling */
+
+main.essay {
+  padding: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.essay-section {
+  text-align: justify;
+  color: #333;
+}
+
+/* Headings Styles */
+.main-heading {
+  font-size: 1.7em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 35px;
+  color: #f05454;
+}
+
+.headings {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.text {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin-bottom: 15px;
+  font-family: Playfair, serif;
+}
+
+/* References List */
+.references {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.references li {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+/* Link Styles */
+.references a {
+  color: #0066cc; /* Blue for links */
+  text-decoration: none;
+}
+
+.references a:hover {
+  text-decoration: underline;
+}
+
+/*Footer Sytling*/
+
+.footer-container {
+  left: 0;
+  bottom: 0;
+  background-color: #141e27;
+  width: 100%;
+  padding: 10px; /* Reduced padding for a smaller container */
+}
+
+.connect-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.connect-socials a {
+  text-decoration: none;
+  padding: 7px;
+  background-color: #f7f9f2;
+  margin: 7px;
+  border-radius: 30%;
+}
+
+.connect-socials a i {
+  font-size: 1.3em;
+  color: #141e27;
+  opacity: 0.9;
+}
+
+/* Restored original hover effect */
+.connect-socials a:hover {
+  background-color: #101920;
+  transition: 0.5s;
+}
+
+.connect-socials a:hover i {
+  color: #f7f9f2;
+  transition: 0.5s;
+}
+
+.footer-nav {
+  margin: 20px 0; /* Reduced margin */
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  list-style: none;
+}
+
+.footer-nav ul li a {
+  color: #f7f9f2cb;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 0.9em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+/* Hover effect for footer links */
+.footer-nav ul li a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  background-color: #101920;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #f7f9f2d0;
+}
